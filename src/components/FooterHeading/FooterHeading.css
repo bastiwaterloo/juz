@@ -1,0 +1,35 @@
+a {
+  color: #333; }
+
+a:hover, a:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+.FooterHeading {
+  font-family: Ubuntu, sans-serif; }
+
+.FooterHeading-heading {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #ffffff; }
+
+.FooterHeading-cube {
+  display: inline-block;
+  height: 20px;
+  width: 3px;
+  background-color: #ff3b30;
+  position: relative;
+  top: 2px;
+  margin-left: 7px; }
+
+.FooterHeading-cube::after {
+  height: 100%;
+  width: 10px;
+  content: '';
+  display: inline-block;
+  background-color: #ff3b30;
+  margin-left: 8px;
+  position: relative;
+  top: -1px; }

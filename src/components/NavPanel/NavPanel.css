@@ -1,0 +1,55 @@
+a {
+  color: #333; }
+
+a:hover, a:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+.NavPanel {
+  color: #6aaf21; }
+
+.NavPanel .navbar {
+  border-radius: 0 !important;
+  background-color: #6aaf21;
+  border: 0px; }
+
+.NavPanel-menuPoint {
+  cursor: pointer;
+  height: 50px;
+  width: 115px;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  background-color: #6aaf21; }
+
+.container-green {
+  color: greenyellow; }
+
+.NavPanel-text {
+  text-decoration: none;
+  color: white; }
+
+.NavPanel-menuPoint.active {
+  background-color: #ffffff;
+  color: black !important; }
+
+.NavPanel-menuPoint:hover {
+  background-color: #ffffff;
+  color: black !important; }
+
+.NavPanel-menuPoint a {
+  color: white;
+  font-family: Ubuntu, sans-serif; }
+
+.NavPanel-menuPoint.active .NavPanel-text {
+  color: black !important; }
+
+.NavPanel-menuPoint:hover .NavPanel-text {
+  color: black !important; }
+
+.NavPanel-menuPoint.active a {
+  background-color: transparent !important; }
+
+.navbar-inverse .navbar-collapse {
+  overflow: hidden; }

@@ -1,0 +1,20 @@
+a {
+  color: #333; }
+
+a:hover, a:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+.AdBox {
+  width: 100%;
+  margin-bottom: 15px;
+  cursor: pointer; }
+
+.AdBox-imageContainer {
+  height: 100%;
+  width: 100%; }
+
+.AdBox-image {
+  width: 100%;
+  background-size: cover; }

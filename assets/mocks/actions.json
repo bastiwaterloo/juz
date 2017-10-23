@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Zum Muttertag",
+    "route": "ZumMuttertag",
+    "text": "Zum Muttertag haben wir viele unserer Top-Uhren stark reduziert.",
+    "since": 1495543922981,
+    "until": 1495546011909
+  },
+  {
+    "id": 2,
+    "name": "Für alle Väter",
+    "route": "FuerAlleVaeter",
+    "text": "Wann muss ich denn mein Kind vom Fußballtraining abholen? Mit unseren stark reduzierten Top-Produkten habe Sie die Zeit immer voll im Blick!",
+    "since": 1495543922981,
+    "until": 1
+  },
+  {
+    "id": 3,
+    "name": "Die neue Aktion",
+    "route": "NewAction",
+    "text": "Ganz viele Uhren zu ganz niedrigen Preisen!!!!!",
+    "since": 1495543922981,
+    "until": 1495546011909
+  }
+]

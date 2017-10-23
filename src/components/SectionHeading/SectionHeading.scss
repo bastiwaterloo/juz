@@ -1,0 +1,34 @@
+@import '../../Variables.scss';
+
+.SectionHeading {
+  font-family: $primary-font;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.SectionHeading-heading {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.SectionHeading-cube {
+  display: inline-block;
+  height: 14px;
+  width: 2px;
+  background-color: $mar-red;
+  position: relative;
+  top: 3px;
+  margin-left: 5px;
+
+}
+
+.SectionHeading-cube::after {
+  height: 100%;
+  width: 8px;
+  content: '';
+  display: inline-block;
+  background-color: $mar-red;
+  margin-left: 5px;
+  position: relative;
+  top: -3px;
+}

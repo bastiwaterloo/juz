@@ -1,0 +1,35 @@
+a {
+  color: #333; }
+
+a:hover, a:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+.SectionHeading {
+  font-family: Ubuntu, sans-serif;
+  text-align: left;
+  margin-bottom: 15px; }
+
+.SectionHeading-heading {
+  font-weight: bold;
+  font-size: 19px; }
+
+.SectionHeading-cube {
+  display: inline-block;
+  height: 14px;
+  width: 2px;
+  background-color: #ff3b30;
+  position: relative;
+  top: 3px;
+  margin-left: 5px; }
+
+.SectionHeading-cube::after {
+  height: 100%;
+  width: 8px;
+  content: '';
+  display: inline-block;
+  background-color: #ff3b30;
+  margin-left: 5px;
+  position: relative;
+  top: -3px; }

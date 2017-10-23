@@ -1,0 +1,45 @@
+[
+
+  {
+    "vendor": "Allyouneed",
+    "vendorId": 1,
+    "url": "http://de.allyouneed.com",
+    "logo": "https://de.allyouneed.com/staticweb/images/m-header/logo-ayn-mp.svg"
+  },
+
+  {
+    "vendor": "OTTO",
+    "vendorId": 2,
+    "url": "http://www.otto.de",
+    "logo": "http://www.designtagebuch.de/wp-content/uploads/mediathek//2015/03/otto_logo.jpg"
+  },
+
+  {
+    "vendor": "Shopping24",
+    "vendorId": 3,
+    "url": "https://www.shopping24.de/",
+    "logo": "https://c1.staticflickr.com/7/6218/6302208007_a63bf91b11.jpg"
+  },
+
+  {
+    "vendor": "Galeria Kaufhof",
+    "vendorId": 4,
+    "url": "https://www.galeria-kaufhof.de/",
+    "logo": "https://upload.wikimedia.org/wikipedia/de/9/96/Galeria_Kaufhof-Logo.svg"
+  },
+
+  {
+    "vendor": "idealo",
+    "vendorId": 5,
+    "url": "https://www.idealo.de/",
+    "logo": "https://cdn.idealo.com/ipc/facf9c/rwd/img/logo-idealo.svg"
+  },
+
+  {
+    "vendor": "ABOUT YOU",
+    "vendorId": 6,
+    "url": "https://www.aboutyou.de",
+    "logo": "http://images.wogibtswas.at/data/company_logo/_original/1/about-you-1336.png"
+  }
+
+]

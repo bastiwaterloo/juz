@@ -1,0 +1,11 @@
+a {
+  color: #333; }
+
+a:hover, a:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+.logos-panel {
+  background-color: greenyellow;
+  padding-top: 30px; }

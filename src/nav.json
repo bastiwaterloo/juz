@@ -1,0 +1,27 @@
+[
+    {
+        "key": "home",
+        "route": "/",
+        "name": "Home"
+    },
+    {
+        "key": "aktionen",
+        "route": "/Aktionen",
+        "name": "Aktionen"
+    },
+    {
+        "key": "sale",
+        "route": "/Sale",
+        "name": "Sale"
+    },
+    {
+        "key": "marken",
+        "route": "/Marken",
+        "name": "Marken"
+    },
+    {
+        "key": "lexikon",
+        "route": "/Lexikon",
+        "name": "Uhrenlexikon"
+    }
+]

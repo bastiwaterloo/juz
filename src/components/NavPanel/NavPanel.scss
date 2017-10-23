@@ -1,0 +1,61 @@
+@import '../../Variables.scss';
+
+.NavPanel {
+  color: $juz-green;
+}
+
+.NavPanel .navbar {
+  border-radius: 0 !important;
+  background-color: $juz-green;
+  border: 0px;
+}
+
+.NavPanel-menuPoint {
+  cursor: pointer;
+  height: 50px;
+  width: 115px;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  background-color: $juz-green;
+}
+
+.container-green{
+  color: greenyellow;
+}
+
+.NavPanel-text{
+  text-decoration: none;
+  color: white;
+}
+
+.NavPanel-menuPoint.active {
+  background-color: #ffffff;
+  color: black !important;
+}
+
+.NavPanel-menuPoint:hover {
+  background-color: #ffffff;
+  color: black !important;
+}
+.NavPanel-menuPoint a {
+  color: white;
+  font-family: $primary-font;
+}
+
+.NavPanel-menuPoint.active .NavPanel-text{
+  color: black !important;
+}
+
+.NavPanel-menuPoint:hover .NavPanel-text{
+  color: black !important;
+}
+
+.NavPanel-menuPoint.active a{
+  background-color: transparent !important;
+}
+
+.navbar-inverse .navbar-collapse{
+  overflow: hidden;
+}
+

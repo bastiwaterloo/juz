@@ -1,0 +1,25 @@
+a {
+  color: #333; }
+
+a:hover, a:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+.FooterPanel {
+  background-color: greenyellow;
+  padding: 20px 0 20px 0;
+  margin-top: 20px; }
+
+.FooterPanel-logo {
+  height: 40px;
+  width: auto; }
+
+.FooterPanel-copyrightText {
+  color: #ffffff;
+  font-size: 10pt;
+  padding-top: 20px; }
+
+.FooterPanel-footerWidgets {
+  margin-top: 15px;
+  margin-bottom: 15px; }

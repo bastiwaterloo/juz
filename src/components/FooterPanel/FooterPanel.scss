@@ -1,0 +1,26 @@
+@import '../../Variables.scss';
+
+.FooterPanel {
+  background-color: greenyellow;
+  padding: 20px 0 20px 0;
+  margin-top: 20px;
+}
+
+.FooterPanel-logoContainer {
+}
+
+.FooterPanel-logo {
+  height: 40px;
+  width: auto;
+}
+
+.FooterPanel-copyrightText {
+  color: $light-color;
+  font-size: 10pt;
+  padding-top: 20px;
+}
+
+.FooterPanel-footerWidgets {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

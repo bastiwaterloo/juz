@@ -1,0 +1,35 @@
+@import '../../Variables.scss';
+
+body {
+  background: $light-color !important;
+}
+
+.HeaderPanel {
+  width: 100%;
+  background-color: $light-color;
+}
+
+.HeaderPanel-logo {
+  height: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+.HeaderPanel-headerNav {
+  height: 10px;
+}
+
+.image-juz-header{
+  height: 100px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px)  {
+
+  .HeaderPanel {
+    height: auto;
+  }
+  .HeaderPanel-logo {
+    margin-top: 10px;
+  }
+}

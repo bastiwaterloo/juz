@@ -1,0 +1,19 @@
+$primary-font: Ubuntu, sans-serif;
+$mar-red: #ff3b30;
+$mar-red-hover: #dd1910;
+$wp-price-font-size: 9pt;
+$wp-name-font-size: 8pt;
+$light-color: #ffffff;
+$dark-text-color: #6b6b6b;
+$footer-dark-font-size: 14px;
+$footer-light-font-size: 14px;
+$juz-green: #6aaf21;
+
+a {
+  color: #333;
+}
+a:hover, a:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

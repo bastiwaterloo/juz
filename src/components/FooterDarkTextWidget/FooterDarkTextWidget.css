@@ -1,0 +1,19 @@
+a {
+  color: #333; }
+
+a:hover, a:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+.FooterDarkTextWidget {
+  height: 300px;
+  width: auto;
+  text-align: left;
+  padding-right: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.FooterDarkTextWidget-text {
+  font-size: 14px;
+  color: #6b6b6b; }

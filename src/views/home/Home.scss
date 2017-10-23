@@ -1,0 +1,46 @@
+.Home {
+  text-align: center;
+
+}
+
+.juz-background{
+  background-image: url("./../../../assets/img/wrapper.png");
+  position: absolute;
+  top: 110px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: greenyellow;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.panel-link{
+  text-decoration: none;
+  color: black;
+}
+
+.panel-link:hover{
+  text-decoration: none !important;
+  color: black;
+}
+
+.watch-component{
+  margin-bottom: 10px !important;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

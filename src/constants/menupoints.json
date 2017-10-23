@@ -1,0 +1,52 @@
+[
+  {
+    "key": "Start",
+    "route": "/",
+    "name": "Home"
+  },
+  {
+    "key": "Haus",
+    "route": "/",
+    "name": "Home"
+  },
+  {
+    "key": "Termine",
+    "route": "/",
+    "name": "Home"
+  },
+  {
+    "key": "Kinderprogramm",
+    "route": "/",
+    "name": "Home"
+  },
+  {
+    "key": "Gallerie",
+    "route": "/",
+    "name": "Home"
+  },
+  {
+    "key": "Vermietung",
+    "route": "/",
+    "name": "Home"
+  },
+  {
+    "key": "Öffnungszeiten",
+    "route": "/",
+    "name": "Home"
+  },
+  {
+    "key": "Kontakt",
+    "route": "/",
+    "name": "Home"
+  },
+  {
+    "key": "Verein",
+    "route": "/",
+    "name": "Home"
+  },
+  {
+    "key": "home",
+    "route": "/",
+    "name": "Home"
+  },
+]

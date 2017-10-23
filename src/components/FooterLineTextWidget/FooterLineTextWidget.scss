@@ -1,0 +1,15 @@
+@import '../../Variables.scss';
+
+.FooterLineTextWidget {
+  height: 200px;
+  width: auto;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.FooterLineTextWidget-text  {
+  font-size: $footer-light-font-size;
+  color: $light-color;
+}
