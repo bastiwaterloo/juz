@@ -1,0 +1,38 @@
+[
+  {
+    "name": "billiard",
+    "imgName": "billiard"
+  },
+  {
+    "name": "essen",
+    "imgName": "essen"
+  },
+  {
+    "name": "ps3",
+    "imgName": "ps3"
+  },
+  {
+    "name": "probleme besprechen",
+    "imgName": "pädagogische_beratung"
+  },
+  {
+    "name": "dart",
+    "imgName": "dart"
+  },
+  {
+    "name": "internet",
+    "imgName": "inet"
+  },
+  {
+    "name": "musik",
+    "imgName": "music"
+  },
+  {
+    "name": "airhockey",
+    "imgName": "air"
+  },
+  {
+    "name": "kicker",
+    "imgName": "kicker"
+  }
+]

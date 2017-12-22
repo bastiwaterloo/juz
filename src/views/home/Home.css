@@ -1,37 +1,23 @@
-.Home {
-  text-align: center; }
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+.container-fluid {
+  padding: 0;
+  overflow-x: hidden; }
 
-.juz-background {
-  background-image: url("./../../../assets/img/wrapper.png");
-  position: absolute;
-  top: 110px; }
+::-webkit-scrollbar {
+  display: none; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
+.Dark-box {
+  height: 275px;
+  width: 100%; }
 
-.App-header {
-  background-color: greenyellow;
-  height: 150px;
-  padding: 20px;
-  color: white; }
+body {
+  font-family: 'Amatic SC', cursive; }
 
-.App-intro {
-  font-size: large; }
+.green-headline {
+  color: green; }
 
-.panel-link {
-  text-decoration: none;
-  color: black; }
+p {
+  font-size: 25px; }
 
-.panel-link:hover {
-  text-decoration: none !important;
-  color: black; }
-
-.watch-component {
-  margin-bottom: 10px !important; }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
+h1 {
+  font-weight: bold; }

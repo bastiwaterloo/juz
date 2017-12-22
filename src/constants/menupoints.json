@@ -2,51 +2,55 @@
   {
     "key": "Start",
     "route": "/",
-    "name": "Home"
+    "name": "Start",
+    "image": "sun.jpg"
   },
   {
     "key": "Haus",
-    "route": "/",
-    "name": "Home"
+    "route": "house",
+    "name": "haus",
+    "image": "sun.jpg"
   },
   {
     "key": "Termine",
-    "route": "/",
-    "name": "Home"
+    "route": "dates",
+    "name": "Termine",
+    "image": "sun.jpg"
   },
   {
     "key": "Kinderprogramm",
-    "route": "/",
-    "name": "Home"
+    "route": "kids",
+    "name": "Kinderprogramm",
+    "image": "sun.jpg"
   },
   {
     "key": "Gallerie",
-    "route": "/",
-    "name": "Home"
+    "route": "gallery",
+    "name": "Gallerie",
+    "image": "sun.jpg"
   },
   {
     "key": "Vermietung",
-    "route": "/",
-    "name": "Home"
+    "route": "rent",
+    "name": "Vermietung",
+    "image": "sun.jpg"
   },
   {
     "key": "Öffnungszeiten",
-    "route": "/",
-    "name": "Home"
+    "route": "opening",
+    "name": "Öffnungszeiten",
+    "image": "sun.jpg"
   },
   {
     "key": "Kontakt",
-    "route": "/",
-    "name": "Home"
+    "route": "contact",
+    "name": "Kontakt",
+    "image": "sun.jpg"
   },
   {
     "key": "Verein",
-    "route": "/",
-    "name": "Home"
-  },
-  {
-    "key": "home",
-    "route": "/",
-    "name": "Home"
-  },
+    "route": "club",
+    "name": "Verein",
+    "image": "sun.jpg"
+  }
 ]

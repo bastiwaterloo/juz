@@ -14,6 +14,15 @@ a:hover, a:focus {
   background-color: #6aaf21;
   border: 0px; }
 
+.nav-line {
+  background-color: #6aaf21;
+  min-height: 50px;
+  text-align: center; }
+
+.navigation {
+  width: 75%;
+  margin: 0 auto; }
+
 .NavPanel-menuPoint {
   cursor: pointer;
   height: 50px;
@@ -23,12 +32,10 @@ a:hover, a:focus {
   text-align: center;
   background-color: #6aaf21; }
 
-.container-green {
-  color: greenyellow; }
-
 .NavPanel-text {
   text-decoration: none;
-  color: white; }
+  color: white;
+  text-align: center; }
 
 .NavPanel-menuPoint.active {
   background-color: #ffffff;

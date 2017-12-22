@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Programmpunkt 1",
+    "date": "02.12.2018",
+    "beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mauris orci, tempor sed faucibus quis, feugiat in libero. Phasellus pulvinar bibendum magna. Suspendisse ornare eros mattis, tempor nunc eget, posuere risus. Pellentesque dictum finibus magna sed suscipit. Nullam vehicula molestie urna, ac interdum libero porttitor ut. Suspendisse potenti. Pellentesque mollis sit amet orci a dignissim. Phasellus dignissim, velit eget volutpat vulputate, nibh erat commodo nibh, et euismod diam quam in nunc. Maecenas faucibus rutrum posuere.",
+    "imgPath": "home_left.png"
+  },
+  {
+    "name": "Geburtstage",
+    "date": "02.05.2018",
+    "beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mauris orci, tempor sed faucibus quis, feugiat in libero. Phasellus pulvinar bibendum magna. Suspendisse ornare eros mattis, tempor nunc eget, posuere risus. Pellentesque dictum finibus magna sed suscipit. Nullam vehicula molestie urna, ac interdum libero porttitor ut. Suspendisse potenti. Pellentesque mollis sit amet orci a dignissim. Phasellus dignissim, velit eget volutpat vulputate, nibh erat commodo nibh, et euismod diam quam in nunc. Maecenas faucibus rutrum posuere.",
+    "imgPath": "home_right.png"
+  },
+  {
+    "name": "Test 3",
+    "date": "02.12.2017",
+    "beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mauris orci, tempor sed faucibus quis, feugiat in libero. Phasellus pulvinar bibendum magna. Suspendisse ornare eros mattis, tempor nunc eget, posuere risus. Pellentesque dictum finibus magna sed suscipit. Nullam vehicula molestie urna, ac interdum libero porttitor ut. Suspendisse potenti. Pellentesque mollis sit amet orci a dignissim. Phasellus dignissim, velit eget volutpat vulputate, nibh erat commodo nibh, et euismod diam quam in nunc. Maecenas faucibus rutrum posuere.",
+    "imgPath": "home_right.png"
+  },
+  {
+    "name": "Test 4",
+    "date": "02.05.2018",
+    "beschreibung": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mauris orci, tempor sed faucibus quis, feugiat in libero. Phasellus pulvinar bibendum magna. Suspendisse ornare eros mattis, tempor nunc eget, posuere risus. Pellentesque dictum finibus magna sed suscipit. Nullam vehicula molestie urna, ac interdum libero porttitor ut. Suspendisse potenti. Pellentesque mollis sit amet orci a dignissim. Phasellus dignissim, velit eget volutpat vulputate, nibh erat commodo nibh, et euismod diam quam in nunc. Maecenas faucibus rutrum posuere.",
+    "imgPath": "home_right.png"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "cafe",
+    "details": [
+      "ab 10 bis max. 50 Personen",
+      "* Getränke müssen von uns abgenommen werden",
+      "* Rauchen und Fremdgetränke (insbesondre harter Alkohl) sind verboten",
+      "* Musikanlage und Lichtanlage sind vorhanden, Musik muss selbst organisiert werden",
+      "* die Küche kann benutzt werden, muss natürlich wieder sauber hinterlassen werden",
+      "* Aufsicht für Jugendliche durch das Personal des JUZ",
+      "* Aufsicht für Kinder unter 14 Jahren ist auch durch Eltern möglich",
+      "* aus Lärmschutzgründen muss laute Musik ab 22 Uhr leiser gespielt, und die Veranstaltung bis spätestens 01:00 Uhr beendet werden",
+      "* Es gilt das JuSchG!"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "disco",
+    "details": [
+      "* ab 50 bis max. 199 Personen",
+      "* Getränke müssen von uns abgenommen werden",
+      "* Rauchen und Fremdgetränke (insbesondre harter Alkohl) sind verboten",
+      "* Musikanlage und Lichtanlage sind vorhanden, DJ und Musik müssen gestellt werden",
+      "* Ausführliche Einweisung erforderlich!",
+      "* Aufsicht durch das hauptamtliche Personal",
+      "* Kassen- und Thekenkräfte sowie Türsteher u.ä. müssen gestellt oder gemietet werden!",
+      "* aus Lärmschutzgründen muss laute Musik ab 22 Uhr leiser gespielt, und die Veranstaltung bis spätestens 01:00 Uhr beendet werden",
+      "* Es gilt das JuSchG!"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "agb",
+    "details": [
+      "* Wir vermieten als Jugendzentrum unsere Räumlichkeiten ausschließlich an",
+      "Kinder und Jugendliche bis maximal 18 Jahre.",
+      "* Die Lokalitäten müssen mindestens 4 Wochen vor der Veranstaltung reserviert werden.",
+      "*Der Termin kann nur in Absprache mit dem JUZ unter Berücksichtigung",
+      "eigener Veranstaltungen gebucht werden.",
+      "* Für die Veranstaltung ist die Raummiete im Voraus zu entrichten. Gleichzeitig ist auch eine Kaution für etwaige Beschädigungen und für eventuelle Reinigungen zu hinterlegen. Das JUZ behält sich vor, darüber hinausgehende Ansprüche im Nachhinein geltend zu machen.",
+      "* Jegliche Plakate, Handzettel und Einladungen müssen vor der Veröffentlichung einem hauptamtlichen MitarbeiterIn vorgelegt werden.",
+      "* Die Veranstalter müssen vor der Veranstaltung eine komplett ausgefüllte Gästeliste im JUZ abgeben",
+      "* Die Aufsichtspersonen bekommen das Hausrecht übertragen. Ihren Anweisungen ist unbedingt Folge zu leisten. ",   
+      "* Alkoholische Getränke (Bier, Weißbier) dürfen nur von über 18-jährigen Veranstaltern (bspw. Eltern) angeboten werden. Der Ausschank ist nur von Personen über 16 Jahren erlaubt.",
+      "* Auf dem gesamten Gelände besteht Rauchverbot. Im Zweifelsfall hat sich der entsprechende Jugendliche auszuweisen.",
+      "* Die Veranstaltung ist bis spätestens zu der in der Veranstaltungsgenehmigung vereinbarten Uhrzeit zu beenden.",
+      "* Der Veranstalter hat dafür zu sorgen, dass BesucherInnen unter 14 Jahren das Fest bis 22 Uhr verlassen.",
+      "* Das JUZ behält sich das Recht vor, die Veranstaltung aus triftigem Grund jederzeit zu beenden.",
+      "* Die genutzten Räumlichkeiten, sowie Theke und Geräte sind vom Veranstalter im Anschluss an das Fest sofort zu reinigen.",
+      "Für entstandene Schäden haftet der Veranstalter oder dessen Erziehungsberechtigter in voller Höhe.",
+      "Nach einer ordnungsgemäßen Übergabe der Räumlichkeiten, Geräte und nach Abrechnung der verbrauchten Getränke, erhält der Veranstalter seine Kaution zurück."
+    ]
+  }
+]

@@ -10,23 +10,31 @@
   border: 0px;
 }
 
+.nav-line {
+  background-color: $juz-green;
+  min-height:50px;
+  text-align: center;
+}
+
+.navigation {
+  width: 75%;
+  margin: 0 auto;
+}
+
 .NavPanel-menuPoint {
   cursor: pointer;
   height: 50px;
-  width: 115px;
+  width: 125px;
   float: left;
   line-height: 50px;
   text-align: center;
   background-color: $juz-green;
 }
 
-.container-green{
-  color: greenyellow;
-}
-
 .NavPanel-text{
   text-decoration: none;
   color: white;
+  text-align: center;
 }
 
 .NavPanel-menuPoint.active {

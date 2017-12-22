@@ -1,0 +1,19 @@
+@import '../../Variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body{
+  font-family: 'Amatic SC', cursive;
+}
+
+.header{
+  background-color: $juz-green;
+  padding: 0 15px;
+}
+
+.details{
+  background-color: white !important;
+}
+
+p, li {
+  font-size: 25px;
+}

@@ -7,9 +7,11 @@ a:hover, a:focus {
   cursor: pointer; }
 
 .FooterPanel {
-  background-color: greenyellow;
   padding: 20px 0 20px 0;
-  margin-top: 20px; }
+  margin-top: 20px;
+  width: 100%;
+  height: 150px;
+  background-color: #6aaf21; }
 
 .FooterPanel-logo {
   height: 40px;

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body{
+  font-family: 'Amatic SC', cursive;
+}
+
+.wrapper-container{
+  border-radius: 10px;
+}
+
+.image-container{
+  margin-top: 30px !important;
+}
+
+.row-start{
+  margin: 0 10px 10px 0;
+}
+
+.row-element{
+  margin: 10px 10px 10px 0;
+}
+
+.text-overlay{
+  z-index: 2;
+  position: absolute;
+  width: 50%;
+  top:100px;
+  left:150px;
+  color: white;
+  white-space: pre-wrap;
+}
+
+.image{
+  height: 250px;
+  border-radius: 10px;
+
+}
+
+p{
+  font-size: 25px;
+}

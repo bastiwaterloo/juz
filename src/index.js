@@ -6,12 +6,13 @@ import {browserHistory, Router} from "react-router";
 import {Provider} from "react-redux";
 import HeaderPanel from './components/HeaderPanel/HeaderPanel';
 import FooterPanel from './components/FooterPanel/FooterPanel';
-import menuePoints from './nav.json';
+import menuePoints from './constants/menupoints.json';
 import NavPanel from './components/NavPanel/NavPanel';
 import './../assets/css/bootstrap/bootstrap.min.css';
-
 import createRoutes from "./routes";
 import createStore from "./store";
+
+
 
 const Root = () => (
     <Provider store={createStore(window.__INITIAL__STATE__)}>
