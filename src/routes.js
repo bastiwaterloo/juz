@@ -55,13 +55,7 @@ export default function () {
             })
         }))}/>
 
-        <Route path='/termine' getComponent={() => (new Promise((res) => {
-            require.ensure([], () => {
-                res(require('./views/termine/termine').default);
-            })
-        }))}/>
-
-        <Route path='/timetable' getComponent={() => (new Promise((res) => {
+        <Route path='/opening' getComponent={() => (new Promise((res) => {
             require.ensure([], () => {
                 res(require('./views/timetable/timetable').default);
             })

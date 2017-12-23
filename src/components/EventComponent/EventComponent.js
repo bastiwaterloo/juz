@@ -23,7 +23,6 @@ export default class EventComponent extends Component {
     }
 
     getEvents = () =>{
-        let eventOutput = [];
         dbRef.on('value', snapshot => {
             this.setState({
                 data: snapshot.val()
@@ -36,7 +35,7 @@ export default class EventComponent extends Component {
         debugger;
         for( let key in this.state.data){
            htmlOut.push(
-               <div className="col-md-12">
+               <div className="col-md-12" key={key}>
                    <img src={require('./../../../assets/img/' + key + ".png")} alt={key} />
                </div>
            )

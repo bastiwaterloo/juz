@@ -59,7 +59,7 @@ export default class Gallery extends Component {
                         <span onClick={this.closeZoom} className="glyphicon glyphicon-remove close-button"></span>
                         <span className="glyphicon glyphicon-chevron-left btn-left" onClick={this.renderNextZoomedImage.bind(this, this.state.overlayImageId)}></span>
                         <span className="glyphicon glyphicon-chevron-right btn-right" onClick={this.renderPrevImage.bind(this, this.state.overlayImageId)}></span>
-                        <img src={require('./../../../assets/img/' + imgName)} className="image-zoomed"/>
+                        <img src={require('./../../../assets/img/' + imgName)} className="image-zoomed" alt={imgName}/>
                     </div>
                 </div>
             )
@@ -84,7 +84,7 @@ export default class Gallery extends Component {
                 <div key={photo.src}>
                     <a onClick={this.zoomImage.bind(this, photo)}>
                         <div className="col-sm-4 gallery-item">
-                            <img src={require('./../../../assets/img/' + photo.src)} className="image"/>
+                            <img src={require('./../../../assets/img/' + photo.src)} className="image" alt={photo.src}/>
                         </div>
                     </a>
                 </div>

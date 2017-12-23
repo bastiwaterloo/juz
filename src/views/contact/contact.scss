@@ -1,0 +1,21 @@
+.map {
+  height: 300px;
+}
+
+@media screen and (min-width: 1024px){
+  .map {
+    height: 500px;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.overlay {
+  height: 65%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.75);
+  position: absolute;
+  z-index: 5000000 !important;
+}

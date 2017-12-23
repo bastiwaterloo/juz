@@ -11,7 +11,8 @@ body {
 
 .HeaderPanel {
   width: 100%;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  z-index: 99999999; }
 
 .HeaderPanel-logo {
   height: 60px;

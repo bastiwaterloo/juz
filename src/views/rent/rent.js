@@ -79,21 +79,18 @@ export default class Rent extends Component {
         let details = [];
         if(selector === 1){
             rent[0].details.forEach((detail) => {
-                debugger;
                 details.push(
                     <li>{detail}</li>
                 )
             })
         } else if(selector === 2){
             rent[1].details.forEach((detail) => {
-                debugger;
                 details.push(
                     <li>{detail}</li>
                 )
             })
         } else {
             rent[2].details.forEach((detail) => {
-                debugger;
                 details.push(
                     <li>{detail}</li>
                 )
@@ -105,38 +102,52 @@ export default class Rent extends Component {
 
     render() {
         return (
+
             <div className="container">
                 <h1>Willst du das Juz Mieten?</h1>
                 <h3>Hier bekommst du ein paar Informationen</h3>
-                <div className="col-sm-24">
-                    <div onClick={this.toggleDetail.bind(this, "cafe")} className="header">
-                        <div className="header">
-                            <h1>Cafe</h1>
+                        <div onClick={this.toggleDetail.bind(this, "cafe")} className="col-sm-24  wrapper-row">
+                            <div>
+                                <div className="header col-sm-20">
+                                    <h1>Cafe</h1>
+                                </div>
+                                <div className="header col-sm-4">
+                                    <h1>50€</h1>
+                                </div>
+                            </div>
+                            {
+                                this.showDetails1()
+                            }
                         </div>
-                        {
-                            this.showDetails1()
-                        }
-                    </div>
-                    <div onClick={this.toggleDetail.bind(this, "disco")}>
-                        <div className="header">
-                            <h1>Disco</h1>
+                        <div onClick={this.toggleDetail.bind(this, "disco")} className="col-sm-24 wrapper-row">
+                            <div>
+                                <div className="header col-sm-20">
+                                    <h1>Disco</h1>
+                                </div>
+                                <div className="header col-sm-4">
+                                    <h1>75€</h1>
+                                </div>
+                            </div>
+                            {
+                                this.showDetails2()
+                            }
                         </div>
-                        {
-                            this.showDetails2()
-                        }
-                    </div>
-                    <div onClick={this.toggleDetail.bind(this, "agb")} className="header">
-                        <div className="header">
-                            <h1>Wer kann mieten?</h1>
+                        <div onClick={this.toggleDetail.bind(this, "agb")} className="col-sm-24  wrapper-row">
+                            <div>
+                                <div className="header col-sm-20">
+                                    <h1>Rahmenbedingungen</h1>
+                                </div>
+                                <div className="header col-sm-4">
+
+                                </div>
+                            </div>
+                            <div>
+                                {
+                                    this.showDetails3()
+                                }
+                            </div>
                         </div>
-                        {
-                            this.showDetails3()
-                        }
                     </div>
-                </div>
-            </div>
         );
     }
 }
-
-

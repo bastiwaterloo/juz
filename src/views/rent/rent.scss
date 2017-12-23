@@ -5,15 +5,31 @@ body{
   font-family: 'Amatic SC', cursive;
 }
 
+p, li {
+  font-size: 25px;
+}
+
+
 .header{
   background-color: $juz-green;
   padding: 0 15px;
+  min-height: 75px;
 }
+
 
 .details{
   background-color: white !important;
 }
 
-p, li {
-  font-size: 25px;
+
+.price{
+  float: left;
+}
+
+.header-wrapper{
+  margin-top: 15px;
+}
+
+.wrapper-row{
+  margin-top: 15px;
 }

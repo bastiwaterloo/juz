@@ -12,7 +12,9 @@ a:hover, a:focus {
 .NavPanel .navbar {
   border-radius: 0 !important;
   background-color: #6aaf21;
-  border: 0px; }
+  border: 0px;
+  position: fixed;
+  z-index: 99999999; }
 
 .nav-line {
   background-color: #6aaf21;
@@ -26,7 +28,7 @@ a:hover, a:focus {
 .NavPanel-menuPoint {
   cursor: pointer;
   height: 50px;
-  width: 115px;
+  width: 125px;
   float: left;
   line-height: 50px;
   text-align: center;

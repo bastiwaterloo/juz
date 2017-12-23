@@ -1,0 +1,34 @@
+@import '../../Variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body{
+  font-family: 'Amatic SC', cursive;
+}
+
+p, li {
+  font-size: 25px;
+}
+
+h1{
+  font-size: 25px !important;
+}
+
+.day-box{
+  background-color: #dddddd;
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.open-closed-sign{
+  height: 30px;
+  margin: 15px auto;
+  float: right;
+}
+
+.big-header{
+  font-size: 36px !important;
+  font-weight: bold;
+  color: $juz-green;
+}

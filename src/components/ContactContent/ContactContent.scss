@@ -1,0 +1,68 @@
+.content-outer{
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  -webkit-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.5);
+  box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.5);
+
+}
+
+.content-inner{
+  color: silver;
+}
+
+.test{
+  height: 50%;
+  margin-top: 5%;
+
+}
+
+.test-text{
+  margin: 0;
+  color: silver;
+
+}
+
+.subpoint-text-container {
+  text-align: left;
+  line-height: 1.5px !important;
+  margin-top: 20px;
+}
+
+.line-big{
+  line-height: 1.5em;
+}
+
+.phone{
+  margin-right: 20px;
+}
+
+.line {
+  border-bottom: solid 1px white;
+  min-height: 50%;
+}
+
+.test-long{
+  background-color: white;
+}
+
+.way-list{
+  margin-top: 20px;
+}
+
+.line-extra-big{
+  margin-top: 15px;
+}
+
+.way-box{
+  padding: 20px 15px 20px 15px;
+}
+
+.way-header{
+  margin-top: 15px;
+}
+
+.way-box-outer{
+  padding-top: 25px;
+}
+

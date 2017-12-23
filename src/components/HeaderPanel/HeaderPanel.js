@@ -7,7 +7,7 @@ export default class HeaderPanel extends Component {
     render() {
         return (
             <div className="HeaderPanel container">
-                <img src={require('./../../../assets/img/juzlogo.png')}/>
+                <img src={require('./../../../assets/img/juzlogo.png')} alt="JUZ Gauting"/>
             </div>
         );
     }

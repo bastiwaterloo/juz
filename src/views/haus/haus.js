@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import WideElement from './../../components/Wide-Element/WideElement';
 import activitys from './../../constants/activity';
 import './haus.css';
 
@@ -14,7 +13,7 @@ export default class Haus extends Component {
                 <div className="col-sm-8">
                     <div className="image-container">
                         <a className="activity-link">
-                            <img src={require('./../../../assets/img/' + activity.imgName + '.jpg')} className="col-sm-24 image" />
+                            <img src={require('./../../../assets/img/' + activity.imgName + '.jpg')} className="col-sm-24 image" alt={activity.name}/>
                             <h1 className="text-overlay">{activity.name}</h1>
                         </a>
 

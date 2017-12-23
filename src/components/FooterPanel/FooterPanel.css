@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
 a {
   color: #333; }
 
@@ -5,6 +6,9 @@ a:hover, a:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer; }
+
+body {
+  font-family: 'Amatic SC', cursive; }
 
 .FooterPanel {
   padding: 20px 0 20px 0;

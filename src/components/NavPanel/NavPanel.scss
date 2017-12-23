@@ -8,12 +8,15 @@
   border-radius: 0 !important;
   background-color: $juz-green;
   border: 0px;
+  position: fixed;
+  z-index: 99999999;
 }
 
 .nav-line {
   background-color: $juz-green;
   min-height:50px;
   text-align: center;
+
 }
 
 .navigation {
