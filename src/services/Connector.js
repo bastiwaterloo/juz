@@ -1,10 +1,55 @@
-import firebase from 'firebase'
-var config = { /* COPY THE ACTUAL CONFIG FROM FIREBASE CONSOLE */
-    apiKey: "unreadablestuff",
-    authDomain: "your-domain-name.firebaseapp.com",
-    databaseURL: "https://your-domain-name.firebaseio.com",
-    storageBucket: "your-domain-name.appspot.com",
-    messagingSenderId: "123123123123"
+import React from 'react';
+import * as firebase from 'firebase';
+const config = {
+    apiKey: "AIzaSyAIElwNO9EzAG4PDNctWE855Gl_73lGI0g",
+    authDomain: "juz-gauting-efd85.firebaseapp.com",
+    databaseURL: "https://juz-gauting-efd85.firebaseio.com",
+    projectId: "juz-gauting-efd85",
+    storageBucket: "juz-gauting-efd85.appspot.com",
+    messagingSenderId: "139995222776"
 };
-var fire = firebase.initializeApp(config);
-export default fire;
+firebase.initializeApp(config);
+const db = firebase.database();
+const dbRef = db.ref();
+var storage = firebase.storage();
+var pathReference = storage.ref();
+
+export default class Connector {
+
+
+    //get Services
+    getService = (childName, callback) => {
+        dbRef.child('/' + childName).on('value', snapshot => {
+            callback(snapshot.val())
+        })
+    }
+
+    getImages = (name, callback) => {
+        pathReference.child('images/' + name).getDownloadURL().then(function(url) {
+          callback(url);
+        }).catch((error) => {
+            console.log(error)
+        })
+    }
+
+
+    //set Services
+
+    setEvents = (payload) => {
+        dbRef.child('/events').push(payload);
+    }
+
+    setTeam = (payload) =>{
+        dbRef.child('/team').push(payload);
+    }
+
+    setDate = (payload) => {
+
+    }
+
+    setHouse = (payload) => {
+
+    }
+
+
+}

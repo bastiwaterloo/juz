@@ -1,56 +1,73 @@
 import React, {Component} from 'react';
 import './EventComponent.css';
-import * as firebase from 'firebase';
-const config = {
-    apiKey: "AIzaSyBclUFwZKZ7ug2IhXistmE10xDqDQfmj9o",
-    authDomain: "juz-gauting.firebaseapp.com",
-    databaseURL: "https://juz-gauting.firebaseio.com",
-    projectId: "juz-gauting",
-    storageBucket: "juz-gauting.appspot.com",
-    messagingSenderId: "674329592839"
-};
-firebase.initializeApp(config);
-const db = firebase.database();
-const dbRef = db.ref().child('events');
+import connection from './../../services/Connector';
+var connector = new connection();
+
 
 export default class EventComponent extends Component {
+
     state = {
-        data: []
+        images: []
     }
 
     componentDidMount(){
-        this.getEvents()
-    }
 
-    getEvents = () =>{
-        dbRef.on('value', snapshot => {
+        connector.getService('events', (events) => {
+            let imag = [];
+
+            for(var key in events) {
+                console.log(events[key].name);
+                connector.getImages(events[key].img, (image) =>{
+                    imag.push({img: image, name: events[key].name});
+                    this.setState({images: imag})
+                })
+            }
+            console.log(this.state);
             this.setState({
-                data: snapshot.val()
+                data: events,
             })
         })
-    };
-
-    renderEvents = () => {
-        let htmlOut = [];
-        debugger;
-        for( let key in this.state.data){
-           htmlOut.push(
-               <div className="col-md-12" key={key}>
-                   <img src={require('./../../../assets/img/' + key + ".png")} alt={key} />
-               </div>
-           )
-        }
-        return htmlOut;
     }
 
+
+
+    renderEvents = () => {
+
+            let htmlOut = [];
+
+            if(this.state.data !== null && typeof this.state.data !== 'undefined' && typeof this.state.images !== 'undefined' && this.state.images !== null && this.state.images !== []){
+                for(var key in this.state.data){
+                    this.state.images.forEach((img) =>{
+                        console.log(this.state.data[key].img + " equals " + img.name );
+                            htmlOut.push(
+                                <div className="col-md-12" key={key}>
+                                    <img src={img.img} alt={key} />
+                                </div>
+                            )
+                    });
+
+                }
+            return htmlOut;
+        }
+
+    }
+
+
+    test = () =>{
+        debugger;
+        console.log(this.state);
+    }
 
 
     render() {
+        debugger;
+        console.log(this.state);
         return (
             <div className="Light-box">
                 {
                     this.renderEvents()
                 }
+                <button onClick={this.test}>Test</button>
             </div>
         );
     }

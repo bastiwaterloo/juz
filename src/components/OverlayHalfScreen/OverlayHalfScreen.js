@@ -1,6 +1,5 @@
 import './OverlayHalfScreen.css';
 import PropTypes from 'prop-types';
-var $ = require("jquery");
 import React, {Component} from 'react';
 
 export default class OverlayHalfScreen extends Component {

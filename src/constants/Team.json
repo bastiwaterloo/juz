@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Lukas Fuchs",
+    "img": "fuchs.jpg",
+    "position": "Vorstand"
+  },
+  {
+    "name": "Florian Felten",
+    "img": "felten.jpg",
+    "position": "Vorstand"
+  },
+  {
+    "name": "Margarete Michalski",
+    "img": "maggy.jpg",
+    "position": "Vorstand"
+  },
+  {
+    "name": "Britta XYZ",
+    "img": "britta.jpg",
+    "position": "Vorstand"
+  },
+  {
+    "name": "Ben Derben",
+    "img": "",
+    "position": "Vorstand"
+  }
+]

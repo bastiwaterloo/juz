@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import photos from './../../constants/gallery';
 import './gallery.css';
+import db from './../../services/Connector';
+import emp from './../../constants/Team';
+var  connector = new db();
 
 export default class Gallery extends Component {
 
